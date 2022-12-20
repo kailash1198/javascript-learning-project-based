@@ -1,0 +1,87 @@
+/* ---------- css reset -------------  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#header .container {
+    width: 100%;
+    margin: auto;
+}
+
+#header .container #nav {
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#header .container #nav .navbar {
+    position: relative;
+}
+
+#header .container #nav .navbar .icon {
+    cursor: pointer;
+}
+
+#header .container #nav .navbar .icon .line {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: 0.5rem;
+}
+
+#header .container #navlist {
+    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 68, 0);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -1;
+}
+
+#header .container #navlist .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .container #navlist .content ul li {
+    list-style: none;
+    padding: 0.5rem 0rem;
+}
+
+#header .container #navlist .content ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#header .container #nav .navbar .close {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+
+#header .container #nav .navbar .close .line {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: 0.5rem;
+}
