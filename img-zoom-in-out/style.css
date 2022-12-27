@@ -1,0 +1,19 @@
+/* -------- css reset -----------  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------header ----------- */
+
+#header {
+    width: 100%;
+}
+
+#header .container {
+    width: 90%;
+    margin: auto;
+}
