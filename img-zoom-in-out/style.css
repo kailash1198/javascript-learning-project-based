@@ -11,9 +11,27 @@
 
 #header {
     width: 100%;
+    height: 100vh;
 }
 
 #header .container {
-    width: 90%;
+    width: 80%;
+    height: 100%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .container .card {
+    width: 100%;
+    margin: 1rem;
+}
+
+#header .container .card img {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 1px 3px 20px rgba(101, 220, 228, 0.651);
 }
