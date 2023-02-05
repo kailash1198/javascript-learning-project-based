@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0rem;
+    display: flex;
+}
+
+
+/* -- log in ---  */
+
+header .container #logIn {
+    width: 40%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+header .container #logIn .content {
+    width: 100%;
+}
+
+header .container #logIn .content h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+header .container #logIn .content p {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+header .container #logIn .content .log-form {
+    padding: 2rem 0rem;
+}
+
+header .container #logIn .content .log-form input {
+    margin: 1rem 0rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+/* -- signup ---  */
+
+header .container #signUp {
+    width: 40%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+header .container #signUp .content {
+    width: 100%;
+}
+
+header .container #signUp .content h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+header .container #signUp .content p {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+header .container #signUp .content .log-form {
+    padding: 2rem 0rem;
+}
+
+header .container #signUp .content .log-form input {
+    margin: 1rem 0rem;
+    padding: 1rem;
+    width: 100%;
+}

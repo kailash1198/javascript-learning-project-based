@@ -10,4 +10,4 @@ window.addEventListener('load', setTimeout(function() {
     myCard2.style.display = 'block';
     myCard3.style.display = 'block';
 
-}, 2000))
+}, 1000))
