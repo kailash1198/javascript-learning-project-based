@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+header .container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .container .card {
+    width: 40%;
+    height: 30%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+header .container .card .circle {
+    width: 60px;
+    height: 60px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.anime {
+    animation: rotate 2s ease-in 0s infinite reverse forwards;
+}
+
+@keyframes rotate {
+    0% {
+        border: 10px solid red;
+    }
+    50% {
+        border: 10px solid rgb(50, 218, 48);
+    }
+    100% {
+        border: 10px solid rgb(79, 19, 182);
+    }
+}
+
+button {
+    padding: 2rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
